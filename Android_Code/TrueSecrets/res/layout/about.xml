@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/app_bg">
+    
+      <LinearLayout 
+        android:layout_alignParentTop="true"
+        android:id="@+id/Header"   
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:background="@color/white"
+    	android:layout_marginTop="-25dp"
+      	android:orientation="vertical">
+    <ImageView
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/navigation" />
+    </LinearLayout>
+
+ <ScrollView
+     android:id="@+id/aboutUsScroll"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+   	 android:layout_marginTop="35dp"
+     android:background="#000000"
+     android:scrollbars="none" >
+
+        <LinearLayout 
+	      android:id="@+id/headerlayout1"
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content" 
+	      android:paddingBottom="60dp"  
+	         android:paddingLeft="10dp"  
+	         android:paddingRight="10dp"   
+	      android:orientation="vertical"	
+	      android:background="@color/black">    
+	      
+			<TextView
+				android:id="@+id/castcreadit"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"						
+				android:textColor="@color/white"
+				android:lineSpacingMultiplier="1"	
+				android:textSize="20sp"	
+				android:layout_marginTop="10dip" 
+				android:layout_marginBottom="10dip"		
+				android:text="@string/castcredits"/>
+
+			<TextView
+				android:id="@+id/castcreaditstr"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"						
+				android:textColor="@color/white"		
+				android:text="@string/castcreditsstr"/>
+	
+	   
+			<TextView
+      			android:id="@+id/disclaimer"
+      			android:layout_width="fill_parent"
+      			android:layout_height="wrap_content"      			
+      			android:text="@string/disclaimer"   
+      			android:lineSpacingMultiplier="1"	
+				android:textSize="20sp"	  
+				android:layout_marginTop="10dip" 
+				android:layout_marginBottom="10dip"		 			
+      			android:textColor="@color/white"/>  
+      			
+			<TextView
+      			android:id="@+id/disclaimerstr"
+      			android:layout_width="fill_parent"
+      			android:layout_height="wrap_content"     			
+      			android:text="@string/disclaimerstr"      			
+      			android:textColor="@color/white"/>  
+      			
+			<TextView
+      			android:id="@+id/info"
+      			android:layout_width="fill_parent"
+      			android:layout_height="wrap_content"      			
+      			android:text="@string/info"      	
+      			android:lineSpacingMultiplier="1"	
+				android:textSize="20sp"	
+				android:layout_marginTop="10dip" 
+				android:layout_marginBottom="10dip"				
+      			android:textColor="@color/white"/>  
+      			
+			<TextView
+      			android:id="@+id/infostr"
+      			android:layout_width="fill_parent"
+      			android:layout_height="wrap_content"     			
+      			android:text="@string/infostr"      			
+      			android:textColor="@color/white"/>
+			  
+      		<TextView
+      			android:id="@+id/anyproblems"
+      			android:layout_width="fill_parent"
+      			android:layout_height="wrap_content"      			
+      			android:text="@string/anyproblem"   
+      			android:lineSpacingMultiplier="1"	
+      			android:layout_marginTop="10dip" 
+				android:layout_marginBottom="10dip"		
+				android:textSize="20sp"	   			
+      			android:textColor="@color/white"/>  
+      			
+      		<LinearLayout 
+      		    android:layout_width="fill_parent"
+      			android:layout_height="wrap_content"   
+      			android:orientation="vertical">
+      				    
+      			<TextView
+      				android:id="@+id/anyproblemsstr1"
+      				android:layout_width="fill_parent"
+      				android:layout_height="wrap_content"     				
+      				android:text="@string/anyproblemstr1" 
+      				android:minLines="1" 
+      				android:layout_weight="1"    				
+      				android:textColor="@color/white"/> 
+      			
+      				     
+      			<TextView
+      				android:id="@+id/anyproblemsnum"
+      				android:layout_width="fill_parent"
+      				android:layout_height="wrap_content"       				 
+      				android:minLines="1" 
+      				android:clickable="true"
+      				android:layout_weight="3"        				   				
+      				android:textColor="@color/white"
+      				android:gravity="left"/> 
+      				    
+      			</LinearLayout>
+      				
+      			<LinearLayout 
+      				android:layout_width="fill_parent"
+      			    android:layout_height="wrap_content"   
+      				android:orientation="vertical">
+      				    
+      			    <TextView
+      					android:id="@+id/anyproblemsstr2"
+      					android:layout_width="fill_parent"
+      					android:layout_height="wrap_content"      					
+      					android:text="@string/anyproblemstr2"  
+      					android:layout_weight="0.8"     
+      					android:minLines="1"   					
+      					android:textColor="@color/white"/> 
+      			
+      				     
+      				<TextView
+      					android:id="@+id/anyproblemsemail"
+      					android:layout_width="fill_parent"
+      					android:layout_height="wrap_content"      					 
+      					android:layout_weight="0.9"   
+      					android:minLines="1" 
+      					android:clickable="true"   					     			
+      					android:textColor="@color/white"
+      					android:gravity="left"/> 
+      				    
+      			</LinearLayout>
+      			
+      			
+      			<TextView
+      					android:id="@+id/anyproblemsstr3"
+      					android:layout_width="fill_parent"
+      					android:layout_height="wrap_content"     			
+      					android:text="@string/anyproblemstr3"     			
+      					android:textColor="@color/white"/> 
+      					
+      			
+      			 <TextView 
+                	android:id="@+id/coupontxt"
+        			android:layout_marginTop="5dp"      
+        			android:layout_marginBottom="2dp"    		
+        			android:text="get friend coupon"
+        			android:layout_width="fill_parent"
+        			android:layout_height="wrap_content"
+        			android:textColor="@color/app_base"
+        			android:gravity="right"        		
+        			android:background="@drawable/rounded"
+        			android:textSize="20dp"
+        			android:clickable="true"
+        			android:layout_marginLeft="50dip"
+        			android:padding="3dip"
+        			android:paddingRight="5dip"/>
+      			 
+      			 <LinearLayout 
+         			android:id="@+id/couponSubContainer"
+         			android:layout_width="fill_parent"
+         			android:layout_height="wrap_content"
+         			android:orientation="vertical"
+         			android:background="@drawable/maprounded">  
+           
+     				<LinearLayout         				
+         				android:layout_width="fill_parent"
+         				android:layout_height="250dp"
+         				android:orientation="vertical"         				
+         				android:padding ="20dp">
+         
+                       <Button 
+             				android:id="@+id/couponbtn"
+          	 				android:layout_width="wrap_content"
+          	 				android:layout_height="wrap_content"
+          	 				android:text="click to get up to date coupon"  
+             				android:background="@drawable/rounded"
+             				android:padding="5dip"
+             				android:layout_marginTop="10dip"
+             				android:textColor="@color/app_base" />
+                       
+                       <TextView 
+          					android:id="@+id/googletxt"
+          					android:layout_width="wrap_content"
+          					android:layout_height="wrap_content"
+          					android:visibility="gone"
+          					android:textColor="@color/white"            					       
+          					android:padding="5dip"/>
+                       
+                        <TextView 
+          					android:id="@+id/coupondiscounttxt"
+          					android:layout_width="wrap_content"
+          					android:layout_height="wrap_content"
+          					android:visibility="gone"
+          					android:textColor="@color/white"            
+          					android:padding="5dip"/> 
+          					
+                         <Button 
+             				android:id="@+id/okcouponbtn"
+          	 				android:layout_width="wrap_content"
+          	 				android:layout_height="wrap_content"
+          	 				android:text="ok"  
+             				android:background="@drawable/rounded"
+             				android:textColor="@color/app_base" 
+             				android:padding="4dip"
+             				android:visibility="gone"
+             				android:layout_gravity="right"
+             				android:layout_marginTop="1dip"
+             				android:layout_marginBottom="4dip"/>   
+         
+         
+     			</LinearLayout>
+     
+     			</LinearLayout>             
+     
+      <TextView 
+        android:id="@+id/emailtxt"        
+        android:layout_marginBottom="5dp"
+        android:text="sign up to email list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/app_base"       
+        android:clickable="true"
+        android:gravity="right"
+        android:textSize="20dp"
+        android:padding="3dip"
+        android:paddingRight="5dip"
+        android:layout_marginLeft="50dip"
+        android:background="@drawable/rounded"/> 
+        
+       <LinearLayout 
+         		android:id="@+id/emailSubContainer"
+         		android:layout_width="fill_parent"
+         		android:layout_height="250dp"
+                android:padding ="20dp"
+         		android:orientation="vertical"
+         		android:visibility="gone"
+         		android:background="@drawable/maprounded">
+        
+      <TextView 
+          android:id="@+id/namelabel"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="Name:"
+          android:textColor="@color/white"            
+          android:padding="5dip"/>
+      
+       <EditText
+          android:id="@+id/nameedittxt"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text=" "  
+          android:layout_marginTop="2dip"
+          android:background="@color/white"        
+          android:padding="5dip"/>
+       
+        <TextView 
+          android:id="@+id/emaillabel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Email Adddress:"          
+          android:textColor="@color/white"  
+          android:layout_marginTop="10dip"
+          android:padding="5dip"/>
+      
+       <EditText
+          android:id="@+id/emailedittxt"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text=""         
+          android:background="@color/white"
+          android:layout_marginTop="2dip"
+          android:padding="5dip"/>
+       
+       <Button 
+             android:id="@+id/submitbtn"
+          	 android:layout_width="wrap_content"
+          	 android:layout_height="wrap_content"
+          	 android:text="submit"  
+             android:background="@drawable/rounded"
+             android:textColor="@color/app_base" 
+             android:padding="5dip"
+             android:layout_gravity="right"
+             android:layout_marginTop="10dip"/>
+       
+        <Button 
+             android:id="@+id/okbtn"
+          	 android:layout_width="wrap_content"
+          	 android:layout_height="wrap_content"
+          	 android:text="ok"  
+             android:background="@drawable/rounded"
+             android:textColor="@color/app_base" 
+             android:padding="5dip"
+             android:visibility="gone"
+             android:layout_gravity="right"
+             android:layout_marginTop="10dip"/>       
+        </LinearLayout>
+	      
+		</LinearLayout>   
+        
+    	</ScrollView>
+    
+</RelativeLayout>

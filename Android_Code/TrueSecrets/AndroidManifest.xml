@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.truesecrets.strange.tour.melbourne"
+    android:versionCode="10"
+    android:versionName="1.9" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+
+ <permission
+        android:name="com.truesecrets.tour.melbourne.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature"/>
+<uses-permission android:name="com.truesecrets.tour.melbourne.permission.MAPS_RECEIVE"/>
+
+
+<uses-permission android:name="android.permission.INTERNET" />
+
+ <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+ <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+ <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+ <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+ <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+ <uses-permission android:name="android.permission.CALL_PHONE"/>
+ <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+
+
+    <!-- Required to keep CPU alive while downloading files (NOT to keep screen awake) -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- Required to poll the state of the network connection and respond to changes -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Required to check whether Wi-Fi is enabled -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    
+ <uses-feature 
+ android:glEsVersion="0x00020000"
+ android:required="true"/>
+ <uses-permission android:name="android.permission.WAKE_LOCK" />
+ <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+ <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+ <uses-permission android:name="com.android.vending.BILLING" />
+ <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+	<activity
+	    android:label="@string/app_name" android:name="com.truesecrets.strange.tour.melbourne.SampleDownloaderActivity"
+	    android:screenOrientation="portrait"> 
+	   
+	    <intent-filter> 
+	        <action android:name="android.intent.action.MAIN"/> 
+	        <category android:name="android.intent.category.LAUNCHER"/> 
+	    </intent-filter>
+	 
+	</activity> 
+	
+	<activity android:name="com.truesecrets.strange.tour.melbourne.WebViewActivity" android:screenOrientation="portrait"/>
+	<activity android:name="com.truesecrets.strange.tour.melbourne.MainActivity" android:screenOrientation="portrait"/>
+	
+	 <service android:name="com.truesecrets.strange.tour.melbourne.SampleDownloaderService" />
+     <receiver android:name="com.truesecrets.strange.tour.melbourne.SampleAlarmReceiver" />
+	 
+    <meta-data
+		    android:name="com.google.android.maps.v2.API_KEY"
+		    android:value="AIzaSyCvB9-MDEGx0Jn0Myc2Sk4Iuurz1XpAlRY"/> 
+		    
+	<!-- <meta-data
+		    android:name="com.google.android.maps.v2.API_KEY"
+		    android:value="AIzaSyDotA7beYWR1j5yT_XTrGonvGzXcUCCtK8"/>	  -->   
+		   
+	<!-- <meta-data
+		    android:name="com.google.android.maps.v2.API_KEY"
+		    android:value="AIzaSyChuwzT2ZnDJAMJQ1vgWjuQggDECukTGKo"/> -->
+		    
+		    <activity android:name="com.truesecrets.purchase.Payment"></activity>
+		        
+		      <activity android:name="com.truesecrets.strange.tour.melbourne.SecretFragment"></activity>
+		    <activity android:name="com.truesecrets.purchase.StartUpActivity"></activity>
+		     <activity android:name="com.truesecrets.purchase.PurchasePassportActivity"></activity>
+		      <activity android:name="com.truesecrets.purchase.MainActivity1"></activity>    
+		            
+	 <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" /> 
+		  
+	<!--  application for Google Adwords Tracking -->
+	<receiver android:name="com.google.ads.conversiontracking.InstallReceiver"
+    android:exported="true">
+  	<intent-filter>
+    <action android:name="com.android.vending.INSTALL_REFERRER" />
+  	</intent-filter>
+	</receiver>
+   
+	</application>
+
+  <supports-screens 
+     android:smallScreens="true"
+     android:largeScreens="true"
+     android:normalScreens="true"
+     android:xlargeScreens="true"
+     android:anyDensity="true"/>
+</manifest>

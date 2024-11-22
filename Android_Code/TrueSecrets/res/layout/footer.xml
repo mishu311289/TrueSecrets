@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/widget40"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"	
+>
+<TableRow 
+    android:id="@+id/subMenuLayout"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:visibility="gone"
+    >
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6"
+        >
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+		android:padding="10dp"
+        android:background="@color/app_bg"
+        >
+        <TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:clickable="true"		
+		android:id="@+id/secret1"
+		android:textColor="@color/app_base"
+		android:singleLine="true"
+		android:textSize="18dp"
+		android:text="@string/secret1"/>
+        
+        <TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/secret2"
+		android:clickable="true"		
+		android:singleLine="true"
+		android:textColor="@color/app_base"
+		android:textSize="18dp"
+		android:text="@string/secret2"/>
+        
+        <TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/secret3"
+		android:singleLine="true"
+		android:clickable="true"		
+		android:textColor="@color/app_base"
+		android:textSize="18dp"
+		android:text="@string/secret3"/>
+        
+        <TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/secret4"
+		android:singleLine="true"
+		android:clickable="true"		
+		android:textColor="@color/app_base"
+		android:textSize="18dp"
+		android:text="@string/secret4"/>
+        
+        <TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/secret5"
+		android:singleLine="true"
+		android:clickable="true"		
+		android:textColor="@color/app_base"
+		android:textSize="18dp"
+		android:text="@string/secret5"/>
+        
+        <TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/secret6"
+		android:singleLine="true"
+		android:clickable="true"		
+		android:textColor="@color/app_base"
+		android:textSize="18dp"
+		android:text="@string/secret6"/>
+        
+        <TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/secret7"
+		android:singleLine="true"
+		android:clickable="true"		
+		android:textColor="@color/app_base"
+		android:textSize="18dp"
+		android:text="@string/secret7"/>
+        
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6"
+        >
+        
+    </LinearLayout>
+</TableRow>
+
+<TableRow
+	android:id="@+id/menuLayout"
+	android:layout_width="fill_parent"
+	android:padding="10dp"
+	android:layout_height="wrap_content"
+	android:background="@color/app_bg"
+>
+	<TextView
+		android:id="@+id/home"
+		android:layout_width="0dp"
+		android:layout_weight="0.7"
+		android:layout_height="wrap_content"
+		android:clickable="true"		
+		android:gravity="center"
+		android:textColor="@color/app_base"
+		android:textSize="22dp"
+		android:text="@string/home_menu"/>
+
+	
+	 <TextView
+	     android:id="@+id/secret"
+	    android:layout_width="0dp"
+		android:layout_weight="1"
+	     android:layout_height="wrap_content"
+	     android:clickable="true"
+	     android:gravity="center"
+	     android:text="@string/secret_menu"
+	     android:textColor="@color/app_base"
+	     android:textSize="22dp" />
+	 
+ <TextView
+		android:id="@+id/about"
+		android:layout_width="0dp"
+		android:layout_weight="0.7"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:gravity="center"
+		android:textSize="22dp"
+		android:textColor="@color/app_base"	
+		android:text="@string/about_menu"/>
+</TableRow>
+</TableLayout>

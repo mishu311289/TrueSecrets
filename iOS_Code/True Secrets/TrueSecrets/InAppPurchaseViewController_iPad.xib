@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1505" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InAppPurchaseViewController">
+            <connections>
+                <outlet property="OriginalPriceLbl" destination="GLm-dv-qVW" id="dOz-xs-UHX"/>
+                <outlet property="SangNameLabel" destination="bsj-ah-lX3" id="cBG-we-31m"/>
+                <outlet property="SongDescriptionLabel" destination="aUa-cc-BTY" id="2Qf-fo-5EW"/>
+                <outlet property="SongsPriceLabel" destination="O42-ah-NFI" id="c1q-wX-qQQ"/>
+                <outlet property="btnrestoreExistingPurchase" destination="coN-fj-x5b" id="yhw-Pk-0mB"/>
+                <outlet property="couponDiscountTitle" destination="Pay-di-G8h" id="ggE-jM-ArS"/>
+                <outlet property="lblerror" destination="P1d-ea-8po" id="2Zc-ZP-Vl9"/>
+                <outlet property="priceAfterTitle" destination="T2u-eu-QAW" id="tvB-7D-1ky"/>
+                <outlet property="purchase" destination="bK3-an-YsD" id="vEb-bv-FI2"/>
+                <outlet property="view" destination="iN0-l3-epB" id="jzt-NF-HGc"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bgfinal.png" translatesAutoresizingMaskIntoConstraints="NO" id="DyG-Ax-wmf">
+                    <rect key="frame" x="0.0" y="23" width="768" height="1001"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Price After Discount" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T2u-eu-QAW">
+                    <rect key="frame" x="99" y="515" width="311" height="52"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aUa-cc-BTY">
+                    <rect key="frame" x="448" y="413" width="230" height="55"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bK3-an-YsD">
+                    <rect key="frame" x="260" y="761" width="249" height="50"/>
+                    <color key="backgroundColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <state key="normal" title="Buy this Product">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="purchaseItem:" destination="-1" eventType="touchUpInside" id="G1N-DL-0TH"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="990" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="229" translatesAutoresizingMaskIntoConstraints="NO" id="GLm-dv-qVW">
+                    <rect key="frame" x="449" y="315" width="229" height="55"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coupon Discount" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pay-di-G8h">
+                    <rect key="frame" x="99" y="399" width="273" height="83"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Original Price" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bsj-ah-lX3">
+                    <rect key="frame" x="99" y="309" width="237" height="68"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O42-ah-NFI">
+                    <rect key="frame" x="448" y="513" width="230" height="55"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fee-2U-RO1">
+                    <rect key="frame" x="259" y="83" width="250" height="50"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBu-5M-REK">
+                    <rect key="frame" x="21" y="90" width="75" height="36"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <state key="normal" title="Back">
+                        <color key="titleColor" red="0.99607843137254903" green="0.74901960784313726" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnBack:" destination="-1" eventType="touchUpInside" id="3Jp-Yn-DHd"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="coN-fj-x5b">
+                    <rect key="frame" x="99" y="955" width="568" height="50"/>
+                    <color key="backgroundColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <state key="normal" title="Restore Existing Purchase">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnrestoreExistingPurchase:" destination="-1" eventType="touchUpInside" id="4ji-lX-SPG"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sorry that coupon is not valid please contact support if in error" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P1d-ea-8po">
+                    <rect key="frame" x="36" y="559" width="692" height="156"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                    <color key="textColor" red="1" green="0.0420520546319334" blue="0.072696077985719421" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HL0-7b-X6Z">
+                    <rect key="frame" x="0.0" y="23" width="768" height="27"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navigation.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zza-ee-e0l">
+                            <rect key="frame" x="0.0" y="0.0" width="768" height="29"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Zza-ee-e0l" secondAttribute="trailing" id="Q3X-en-pTz"/>
+                        <constraint firstAttribute="bottom" secondItem="Zza-ee-e0l" secondAttribute="bottom" constant="-2" id="j2V-Zw-BbG"/>
+                        <constraint firstItem="Zza-ee-e0l" firstAttribute="top" secondItem="HL0-7b-X6Z" secondAttribute="top" id="rTA-Rs-0BC"/>
+                        <constraint firstItem="Zza-ee-e0l" firstAttribute="leading" secondItem="HL0-7b-X6Z" secondAttribute="leading" id="u4z-G4-54Y"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Fee-2U-RO1" firstAttribute="top" secondItem="HL0-7b-X6Z" secondAttribute="bottom" constant="33" id="2jX-ab-1To"/>
+                <constraint firstItem="HL0-7b-X6Z" firstAttribute="leading" secondItem="DyG-Ax-wmf" secondAttribute="leading" id="9hh-BI-MzV"/>
+                <constraint firstItem="HL0-7b-X6Z" firstAttribute="trailing" secondItem="DyG-Ax-wmf" secondAttribute="trailing" id="MVx-qB-65Y"/>
+                <constraint firstAttribute="trailing" secondItem="HL0-7b-X6Z" secondAttribute="trailing" id="RMf-I7-3nK"/>
+                <constraint firstItem="HL0-7b-X6Z" firstAttribute="top" secondItem="DyG-Ax-wmf" secondAttribute="top" id="aIZ-f6-sHB"/>
+                <constraint firstItem="HL0-7b-X6Z" firstAttribute="centerX" secondItem="Fee-2U-RO1" secondAttribute="centerX" id="d6n-PK-pXV"/>
+                <constraint firstItem="HL0-7b-X6Z" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="23" id="e0n-1q-ZGF"/>
+                <constraint firstAttribute="bottom" secondItem="HL0-7b-X6Z" secondAttribute="bottom" constant="974" id="lcr-fu-dnU"/>
+                <constraint firstItem="HL0-7b-X6Z" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="uaC-ch-7y8"/>
+                <constraint firstItem="HL0-7b-X6Z" firstAttribute="centerX" secondItem="bK3-an-YsD" secondAttribute="centerX" id="ug5-BD-HWU"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="bgfinal.png" width="297" height="865"/>
+        <image name="logo1.png" width="250" height="50"/>
+        <image name="navigation.png" width="1536" height="262"/>
+    </resources>
+</document>

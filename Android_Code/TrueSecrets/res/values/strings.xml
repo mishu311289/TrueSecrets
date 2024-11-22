@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+   <string name="buy_string">Buy </string>
+	<string name="clickme_string">Click me</string>
+	<string name="expansionFilesPrefix">main.10.com.truesecrets.strange.tour.melbourne</string>
+	
+	
+    <string name="app_name">TrueSecretsM</string>
+    <string name="home_menu">home</string>
+     <string name="contact_number">(03) 8256 9621</string>
+    <string name="contact_email">info@truesecrets.com.au</string>
+    
+    <string name="secret_menu">secret</string>
+    <string name="about_menu">about</string>
+    <string name="action_settings">Settings</string>
+    
+<!--     <string name="app_url">http://112.196.24.206/webservice-31/webservice.php</string>   -->
+  <string  name="app_url">http://webservices.truesecrets.com.au/webservice.php</string> 
+   <!--  <string name="secret1">\#1 prostitute</string>
+    <string name="secret2">\#2 dim sims</string>
+    <string name="secret3">\#3 cup day</string>
+    <string name="secret4">\#4 assassins</string>
+    <string name="secret5">\#5 witness</string>
+    <string name="secret6">\#6 telco</string>
+    <string name="secret7">\#7 raid</string> -->
+    
+     <string name="text_paused_cellular">Would you like to enable downloading over cellular connections? Depending on your data plan, this may cost you money.</string>
+    <string name="text_paused_cellular_2">If you choose not to enable downloading over cellular connections, the download will automatically resume when wi-fi is available.</string>
+    <string name="text_button_resume_cellular">Resume download</string>
+    <string name="text_button_wifi_settings">Wi-Fi settings</string>
+    <string name="text_verifying_download">Verifying Download</string>
+    <string name="text_validation_complete">XAPK File Validation Complete.  Select OK to continue.</string>
+    <string name="text_validation_failed">XAPK File Validation Failed.</string>
+    <string name="text_button_pause">Pause Download</string>
+    <string name="text_button_resume">Resume Download</string>
+    <string name="text_button_cancel">Cancel</string>
+    <string name="text_button_cancel_verify">Cancel Verification</string>
+    
+    <string name="secret1">\#1 prostitute</string>
+    <string name="secret2">\#2 dim sim</string>
+    <string name="secret3">\#3 police strike</string>
+    <string name="secret4">\#4 assassin</string>
+    <string name="secret5">\#5 witness</string>
+    <string name="secret6">\#6 telco</string>
+    <string name="secret7">\#7 strip search</string>
+    
+    <string name="imgSecret1txt">1. Prostittute paid with stolen Crown jewels</string>
+    <string name="imgSecret2txt">2. Victim\'s body inside dim sims</string>
+    <string name="imgSecret3txt">3. Police desert city centre on cup day</string>
+    <string name="imgSecret4txt">4. Beatles assassination attempt from tower</string>
+    <string name="imgSecret5txt">5. Witnesses of secret bank deals break silence</string>
+    <string name="imgSecret6txt">6. Landlord brings down major telco at midnight</string>
+    <string name="imgSecret7txt">7. 400 people strip searched by police</string>
+    
+    
+    <!-- <string name="mainscreenstring">Welcome to True Secrets Melbourne Tour \n\n We are pleased to let you in on this little secret or 7 \n\n Click below to be introduced to the 7 secrets, or just swipe to get right in.\n\n Before you start:\n Best enjoyed with headphones and some friends</string>  -->
+   <string name="mainscreenstring_a">Welcome to the tour</string>
+   <!-- <string name="mainscreenstring">Just swipe to the left to start, or click below\n\nBefore you start:\nBest enjoyed with headphones and some friends</string>  -->
+   <string name="mainscreenstring">Just swipe to the left to start, or click below. Before you start: Best enjoyed with headphones and some friends</string>
+   <!--  ////////////////////////////////////////////////////////////////////////////////////  -->
+    
+   <string name="secret_tour">\@truesecretstour</string>
+   <!-- <string name="secret_ready">When you are ready to hear\nthe secret revealed</string> -->
+   <string name="secret_ready">When you are ready to hear the secret revealed</string>
+   <!--  ////////////////////////////////////////////////////////////////////////////////////  -->
+   
+   <!-- <string name="secret_caption">BEFORE YOU HEAR THE SECRET,\nCONSIDER LISTENING TO THE\nBACKGROUND</string> -->
+  <!-- <string name="secret_caption">Listen to some curious\nbackground information.</string> -->
+  <string name="secret_caption">Listen to some curious background information.</string>
+  <!--  ////////////////////////////////////////////////////////////////////////////////////  -->
+  
+  
+<!--    <string name="secret_insights">FOR SOME MORE INSIGHTS LISTEN TO</string> -->
+   <string name="secret_insights">Hear what else we uncovered.</string>
+   
+   <!-- <string name="ready_to_go">HEADPHONES IN, STANDING NEAR SECRET, OK LETS GO:</string> -->
+  <!--  <string name="ready_to_go">Hear the secret revealed.\n PRESS PLAY</string> -->
+   <string name="ready_to_go">Hear the secret revealed. PRESS PLAY</string>
+  <!--  ////////////////////////////////////////////////////////////////////////////////////  -->
+   
+   <string name="secret1_title">Prostitute paid with stolen crown jewels</string>   
+ <!--   <string name="secret_1a">The Victorian Parliament\'s gold and Jewel encrusted mace was given to a whore as payment for services.\n\nFind your way to 32 Bourke St, the 7 - 11 across the rd is a good spot to stand.</string>    
+    <string name="secret_1b">After 120 years the mystery is solved. The Parliamentary Mace was left at one of Madame Brussel\'s brothels.\nWe have never known what happened to the Parliamentary Mace when it disappeared, until now.\nOur detectives have traced it to a notorious brothel.\nMadame Brussel was one of the most colorful characters of Melbourne. She held the lease for a premises here on Bourke St.</string> -->
+    <string name="secret_1a">The Victorian Parliament\'s priceless silver and gold mace disappeared in 1891. Was it given to a whore as payment?</string>
+  <!--   <string name="secret_1b">We have never known what happened to the Parliamentary Mace until now. Our detectives have traced it to this location...\n a borthel under the management of Madame Brussels.</string> -->
+    <string name="secret_1b">We have never known what happened to the Parliamentary Mace until now. Our detectives have traced it to this location...a brothel under the management of Madame Brussells.</string>
+    <!--  ////////////////////////////////////////////////////////////////////////////////////  -->
+      
+  <!-- <string name="maptxtstring_1a">Find your way to 32 bourke st.\nThe answer is in a room on the first floor.</string> -->
+    <string name="maptxtstring_1a">Find your way to 32 bourke st. The answer is in a room on the first floor.</string>
+  <!--  ////////////////////////////////////////////////////////////////////////////////////  -->
+    
+   <string name="secret2_title">Victim\'s body inside dim sims</string>   
+ <!--   <string name="secret_2a">During the gangster period of 1920s a clever chef disposed off a murder victim\'s body inside Dim Sims.\n\nFind your way to Celstial Ave, in China Town, off Little Bourke St, on the corner is a good spot to stand.</string>
+   <string name="secret_2b">On a dark night in 1920s something more than pork got added to a batch of dim sim. Back in the 1920s some of the gangsters handled the money and some of the gangsters handled the bodies... sometimes they worked together. One of my favourite urban legends is about the creation of Dim Sim... what was the impetus to put a bit of mystery meat into a little dumpling back in the 1920s... Perhaps if you had to get rid of a body in a hurry...</string> -->
+   <string name="secret_2a">Did entrepreneurial gangsters create Melbourne\'s famous snack the Dim Sim?</string>
+   <string name="secret_2b">In the 1920s some gangsters handled the money and some gangsters handled the bodies, sometimes they worked together.</string> 
+   <string name="maptxtstring_2a">Find your way to the corner of Celstial Ave. and Little Bourke. The action takes place just outside those barred windows.</string>
+  
+   <string name="secret3_title">Police desert city center on cup day</string>   
+  <!--  <string name="secret_3a">On a particular Melbourne Cup Day the police went out on strike leaving the city vulnerable to crime.\n\nFind your way to Bourke St Mall, on the seats outside the body shop is a good spot to stand/sit.</string>
+   <string name="secret_3b">Cup Day sees a major flood of tourists into the city. If the police choose to strike that would be the day. They left the city and all the CBD shops without any protection on 2nd November 1923.\nBack in 1923 the police were considered the servant class and the night before Cup Day the CBD police chose to strike. When other constables refused to serve in their place the government of the time tried to recruit any able\-bodied men. But during Cup weekend... able  bodied wasn\'t so hard to find but sober and able\-bodied was not so easy.</string> -->
+   <string name="secret_3a">How did the State government control 6 days of violence and looting when the Police went on strike in 1923?</string>
+   <!-- <string name="secret_3b">The Government tried to recruit able-bodied men. During Cup weekend, able-bodied wasn\'t so hard to find ...\nbut sober and able-bodied was not so easy.</string>  -->
+   <string name="secret_3b">The Government tried to recruit able-bodied men. During Cup weekend, able-bodied wasn\'t so hard to find ...but sober and able-bodied was not so easy.</string> 
+   <!--  ////////////////////////////////////////////////////////////////////////////////////  -->
+   
+   <string name="maptxtstring_3a">Find your way to Bourke St. Mall. Just outside of the old Buckley &amp; Nunn store is where they tried to solve the problem.</string>
+  
+   <string name="secret4_title">Beatles assassination attempt from tower</string>   
+  <!--  <string name="secret_4a">Assassination suicide be a teenage boy during the Beatle\'s tour of Melbourne.\n\nFind your way to the corner of Collins and Swanston St.\nOutside the town hall is a good spot to stand, looking up at Manchester Unity building.</string>
+   <string name="secret_4b">If someone want to assassinate a famous person, the tower of the Manchester Unity building is a good location to shoot from.\nTeenage girls fell madly in love with the Beatles. When they came to Melbourne it was no different.\nThe thousands of screaming and swooning girls outside the Melbourne Town hall waiting to catch a glimpse of them on the balcony was intense. But not every boy was prepared to loose his beau to a \" a Pom with hair like a girl\'s.\" One boy went to extreme measures up in the tower of the Manchester Unity building.</string> -->
+    <string name="secret_4a">Why was a teen-aged boy, his girfriend and a high-powered rifle in the tower at the same time the Beatles appeared across the street?</string>
+    <string name="secret_4b">Girls seemed possessed as they screamed and swooned, pledging their love to the Beatles when they come to Melbourne in 1964. The tower of the Manchester Unity Building has a perfect line of sight to the Town hall balcony.</string>
+    <string name="maptxtstring_4a">Find a good vantage point where you can see the Manchester Unity Building and the balcony above the entrance of the Melbourne Town Hall and it will make sense.</string>
+   
+   <string name="secret5_title">Witnesses of secret bank deals break silence</string>   
+  <!-- <string name="secret_5a">After more than 120 years of silence, two financial district witnesses reveal what they have seen.\nFind your way to the corner of Collins and Swanston St.\nOutside the town hall is a good spot to stand, looking up at Manchester Unity building.</string>
+   <string name="secret_5b">If someone want to assassinate a famous person, the tower of the Manchester Unity building is a good location to shoot from.\nTeenage girls fell madly in love with the Beatles. When they came to Melbourne it was no different.\nThe thousands of screaming and swooning girls outside the Melbourne Town hall waiting to catch a glimpse of them on the balcony was intense. But not every boy was prepared to loose his beau to a \" a Pom with hair like a girl\'s.\" One boy went to extreme measures up in the tower of the Manchester Unity building.</string> -->    
+   <string name="secret_5a">Who are the two financial district witnesses that tell everything after being silent for 120 years?</string>
+   <!-- <string name="secret_5b">The Global Financial Crisis of 2007-2008 bears a striking similarity to the 1893 financial collapse in Victoria...\nWhen another glass and steel building went up across the street, these guys had to speak up.</string>  -->
+   <string name="secret_5b">The Global Financial Crisis of 2007-2008 bears a striking similarity to the 1893 financial collapse in Victoria...When another glass and steel building went up across the street, these guys had to speak up.</string> 
+   <!--  ////////////////////////////////////////////////////////////////////////////////////  -->
+   
+   <string name="maptxtstring_5a">Find your way to 382 Collins St. (just before Queen St.) remain very still and they will reveal themselves.</string>
+   
+   <string name="secret6_title">Landlord brings down major telco at midnight</string>   
+   <!--<string name="secret_6a">Rialto landlords seals doors and cancels the security passes forcing the final end of the company.\n\nFind your way to the 520 Collins St, on the stairs here is a good spot to stand, looking up at the Rialto building.</string>
+   <string name="secret_6b">The final moment of one.tel was when the landlord turned off the lights and locked the doors. For 6 months there was speculation that one.tel was going down.. but when the landlords finally switched off the lights and sealed the doors on 25th of May it was really over.\nStanding on the corner of Collins and King the Rialto Tower is an imposing monument to capitalism. It was the perfect home for the telco giant one.tel. Until it all went wrong. Reports of failure were denied until the night of 25th of May. The phones stopped being answered when the call center night shift was locked out by the landlord of the building.</string> -->
+   <string name="secret_6a">What happened at midnight in the One.tel call centre that finally brought the company to an end?</string>
+   <string name="secret_6b">The Rialto Tower was the perfect home for the corporate telco giant One.tel. Reports of financial collapse were denied for months, but on the night of 25th of May, the night-shift suddenly stopped answering calls.</string> 
+   <string name="maptxtstring_6a">Find your way to 520 collins St. Look up at the Rialto building. It\'s all going down on the 36th floor.</string>
+   
+   <string name="secret7_title">400 people strip-searched</string>   
+ <!--<string name="secret_7a">The frightening night that cost the Victorian Police $4M when 400 people were strip searched in a night club raid.\n\nWonder down to 331 Flinders lane for the final secret.\nLook into the alley way with the arch, through one of the doors in this lane is where it happened.</string>
+   <string name="secret_7b">Those are real police officers not strippers in costume. This is the last night for the Tasty Nightclub. The music is pumpin\" the vibe is exciting... suddenly the music stops and cops arrive.. \"cool strippers and a floor show\" \"Then they started yelling and bashing and ordered us to strip naked.\n\"The raid by the police is Melbourne\'s \"Stonewall\" over 400 patrons were strip searched.\nThe hottest dance club in Melbourne was the Tasty Nightclub located in basement... well it was the hottest club until 2 am on August 7th 1994.</string> -->
+   <string name="secret_7a" formatted="false">What were the Victoria Police thinking when they conducted a raid that cost them a $4M legal settlement?</string>
+   <string name="secret_7b">Its 2am in the Tasty Nightclub when suddenly the music stops and cops arrive. \"Cool! Strippers we thought...but then they started yelling and bashing and ordered us to strip naked.\"</string> 
+   <string name="maptxtstring_7a">Find 331 Flinders Lane and look down the alley-way to the door at the far left corner. Only the cool people know about this entrance.</string>
+     
+   <string name="castcredits">Cast &amp; Credits</string> 
+   <!-- <string name="castcreditsstr">These plays were created by: John Paul Fischbach\nScripts written and developed by Robert Reid\nDirection by Paul Fischbach\nMusic composed by David James Nielsen\nAudio mixed, mastered and foley by Greg O\'Shea\n\nThe Acting company included: Sean Barker, Mick Cahill, Grant Cartwright, Joanna Fripp, Yi Jin, Rosemary Johns, Christopher Pang, Robert Reid\n\nThe narrator was Brian Lightfoot\n\nArticle Archive pictures used with permission of Herald and Weekly Times (HWT) Promotional stills source: shutterstock, istockphoto, John Paul Fischbach, Craig Lambie\n\nApp developed by Craig Lambie of What Was That Pty Ltd.</string> -->
+   <!-- <string name="castcreditsstr">These plays were created by: John Paul Fischbach\nScripts written and developed by Robert Reid. Direction by Paul Fischbach. Music composed by David James Nielsen. Audio mixed, mastered and foley by Greg O\'Shea. The Acting company included: Sean Barker, Mick Cahill, Grant Cartwright, Joanna Fripp, Yi Jin, Rosemary Johns, Christopher Pang, Robert Reid. The narrator was Brian Lightfoot. Article Archive pictures used with permission of Herald and Weekly Times (HWT) Promotional stills source: shutterstock, istockphoto, John Paul Fischbach, Craig Lambie. App developed by Craig Lambie of What Was That Pty Ltd.</string> --> 
+   <string name="castcreditsstr">These plays were created by: John Paul Fischbach\nScripts written and developed by Robert Reid\nDirection by Paul Fischbach\nMusic composed by David James Nielsen\nAudio mixed, mastered and foley by Greg O\'Shea\nThe Acting company included: Sean Barker, Mick Cahill, Grant Cartwright, Joanna Fripp, Yi Jin, Rosemary Johns, Christopher Pang, Robert Reid\nThe narrator was Brian Lightfoot\nArticle Archive pictures used with permission of Herald and Weekly Times (HWT) Promotional stills source: shutterstock, istockphoto, John Paul Fischbach, Craig Lambie\nApp developed by Craig Lambie of What Was That Pty Ltd.</string>
+   <!--  ////////////////////////////////////////////////////////////////////////////////////  -->
+   
+   <string name="disclaimer">Disclaimer</string> 
+   <string name="disclaimerstr">These works of fiction are based on some historical facts of Melbourne and some urban myths.This Melbourne tour is intended for entertainment purposes.</string>
+   <string name="info">Info</string> 
+   <string name="infostr">Tour takes approx. 2 hours\n(depending on your walking speed)</string> 
+   <string name="anyproblem">Any Problems?</string> 
+   <string name="anyproblemstr1">Please Call our support team on </string> 
+   <string name="anyproblemstr2">We can be contacted on </string> 
+   <string name="anyproblemstr3">We can be found at 228 Bank St, South Melbourne VIC 3205 ABN: 81 071 070 474 </string>
+   
+   <string name="fbsecretlink1">https://www.facebook.com/pages/True-Secrets-Melbourne-Stop-1-The-Disappearance-Of-The-Parliamentary-Mace/134799926596521</string> 
+   <string name="fbsecretlink2">https://www.facebook.com/pages/True-Secrets-Melbourne-Stop-2-Suspicious-Origins-Of-Dim-Sim/215536975133635</string> 
+   <string name="fbsecretlink3">https://www.facebook.com/pages/True-Secrets-Melbourne-Stop-3-Cup-Day-Police-Strike/204494506261833</string> 
+   <string name="fbsecretlink4">https://www.facebook.com/pages/True-Secrets-Melbourne-Stop-4-Boy-In-The-Tower/135878946486443</string> 
+   <string name="fbsecretlink5">https://www.facebook.com/pages/True-Secrets-Melbourne-Stop-5-Gargoyles-Know-Secrets/215835468437904</string> 
+   <string name="fbsecretlink6">https://www.facebook.com/pages/True-Secrets-Melbourne-Stop-6-Last-Minutes-Of-Onetel/206627439374509</string> 
+   <string name="fbsecretlink7">https://www.facebook.com/pages/True-Secrets-Melbourne-Stop-7-Tasty-Nightclub-Raid/160955067303807</string> 
+   <string name="fbsecretlinkall">https://www.facebook.com/TrueSecretsTour</string> 
+   
+   <string name="Foursquarelink1">https://foursquare.com/v/1--prostitute-paid-with-stolen-crown-jewels--true-secrets-melbourne-stop-1/4deb126022713dd973a5beeb</string> 
+   <string name="Foursquarelink2">https://foursquare.com/v/2--murder-victims-body-inside-dim-sims--true-secrets-melbourne-stop-2/4deb14f0ae60e989236b2666</string> 
+   <string name="Foursquarelink3">https://foursquare.com/v/3--police-desert-city-centre-on-cup-day--true-secrets-melbourne-stop-3/4deb16a022713dd973a61dd2</string> 
+   <string name="Foursquarelink4">https://foursquare.com/v/4--beatles-assassination-attempt-from-tower--true-secrets-melbourne-stop-4/4deb17c445dd3993a89e5260</string> 
+   <string name="Foursquarelink5">https://foursquare.com/v/5--witness-of-secret-bank-deals-breaks-silence--true-secrets-melbourne-stop-5/4deb1a2efa76cc1b8af7f525</string> 
+   <string name="Foursquarelink6">https://foursquare.com/v/6--landlord-brings-down-major-telco-at-midnight--true-secrets-melbourne-stop-6/4deb1b5b1f6e3ddebddf1ca4</string> 
+   <string name="Foursquarelink7">https://foursquare.com/v/7--400-people-stripsearched--true-secrets-melbourne-stop-7/4deb1902fa76cc1b8af7da38</string> 
+   <string name="Foursquarelinkall">https://foursquare.com/truesecretstour</string> 
+   
+   <string name="GooglePluslink">https://plus.google.com/b/117818034641922846101/117818034641922846101/posts</string>
+</resources>

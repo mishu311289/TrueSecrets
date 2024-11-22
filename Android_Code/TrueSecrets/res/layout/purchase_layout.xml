@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"  
+    android:padding="10dp" 
+    android:orientation="vertical" >
+    
+    
+
+    
+    <TextView
+          android:id="@+id/title"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="To experience the full True Secrets tour you need to purchase access to the audio files."
+          android:layout_margin="5dp"
+          android:textColor="#67C8FF"
+          android:textSize="18sp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:padding="5dp"/> 
+    
+     <Button
+         android:id="@+id/coupon"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:gravity="center"
+         android:background="@drawable/button_bg"
+         android:padding="8dp"
+         android:textColor="@color/white"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:text="I have a coupon/ voucher"
+         />
+
+    <Button
+         android:id="@+id/continueWithoutCoupon"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="5dp"
+         android:gravity="center"
+         android:padding="8dp"
+        android:textColor="@color/white"
+           android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+         android:background="@drawable/button_bg"
+         android:text="I do not have a coupon/ voucher"
+        />
+
+   
+    
+
+</LinearLayout>
